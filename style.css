@@ -55,3 +55,16 @@ main {
     color: var(--gray-600);
     margin-bottom: 2.5rem;
 }
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    gap: 0.5rem;
+}
+
+.input-box div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
