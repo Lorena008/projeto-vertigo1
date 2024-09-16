@@ -74,6 +74,22 @@ main {
     font-weight: 600;
 }
 
+.login input {
+    padding: 1rem 0.75rem;
+    border: 1px solid var(--gray-200);
+    border-radius: 0.25rem;
+    color: var(--gray-800);
+}
+
+.login input::placeholder {
+    color: var(--gray-400);
+}
+
+.login input:hover, 
+.login input:focus {
+    outline: 1px solid var(--purple);
+}
+
 .login a {
     color: var(--purple);
     text-decoration: none;
