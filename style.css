@@ -124,8 +124,19 @@ main {
     font-size: 1rem;
 }
 
+main {
+    margin-inline: 7rem;
+    max-width: 24rem;
+    padding: 0;
+}
+
 @media(min-width: 1000px) {
    
+    body {
+        display: flex;
+        height: 100vh;
+    }
+
     header {
         background: none;
         justify-content: flex-start;
@@ -143,5 +154,12 @@ main {
         margin-inline: 7rem;
         max-width: 24rem;
         padding: 0;
+    }
+    conteudo {
+        width: 100%;
+    }
+        .bg-desktop {
+        display: block;
+        width: 100%;
     }
 }
